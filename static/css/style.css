@@ -1,6 +1,6 @@
 html, body {
     background-color: #333;
-    font-family: "Helvetica";
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -19,7 +19,7 @@ ul {
     padding: 0;
     margin: 0;
     width: 100%;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
 }
 
 li {
@@ -27,46 +27,36 @@ li {
     padding-left: 30px;
 }
 
-.container {
-    height: 50vh;
-    width: 100%;
-    /* padding: 100px; */
-    background-color: white;
-    /* padding: 100px; */
-}
+
+
+
+
+
 
 .landing {
-    display: flex;
-    flex-flow: row;
-    /* flex-direction: row; */
-    align-items: center;
-    /* width: 60%; */
+    /* background-color: cadetblue; */
+    /* width: 100%; */
+    width: 75%;
     margin: 0 auto;
-    padding: 50px 100px 50px;
-    background-color: darkgray;
+    /* line-height: 90%; */
+    background-color: #f2f2f2;
 }
 
-.landing-left {
-    background-color: bisque;
-    padding: 20px;
-    flex-basis: 70%;
+.landing h1 {
+    color: rgb(199, 122, 0, 1);
+    font-size: 5em;
+    line-height: 30%;
 }
 
-.landing-right {
-    background-color: burlywood;
-    padding: 20px;
-    flex-basis: 30%;
+.landing h2 {
+    /* color: rgb(222, 137, 0, 1); */
+    color: #fff;
+    font-size: 3.5em;
+    line-height: 30%;
 }
 
-#portrait {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: auto;
-}
-
-h1.landing-left {
-    font-weight: 300;
-    color: red;
+.landing h3 {
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 10%;
 }
