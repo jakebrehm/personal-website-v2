@@ -1,62 +1,61 @@
-html, body {
-    background-color: #333;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
+/* CSS Variables */
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+
+/* Navigation Bar */
+.header_area .main-menu .navbar-brand {
+    padding: 0 2rem 0 5rem;
 }
 
-.navbar {
-    overflow: auto;
-    padding-top: 10px;
-    padding-right: 10px;
-    height: 3vh;
-    /* position: fixed;
-    top: 0; */
+.header_area .main-menu .navbar {
+    padding: 1rem 20rem;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    /* color: #f2f2f2; */
+.header_area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px "Montserrat";
+    text-transform: uppercase;
+    padding: 1.7rem;
 }
 
-li {
-    float: right;
-    padding-left: 30px;
+.header_area .main-menu .navbar-nav .active a {
+    color: var(--primary-color);
 }
 
-
-
-
-
-
-
-.landing {
-    /* background-color: cadetblue; */
-    /* width: 100%; */
-    width: 75%;
-    margin: 0 auto;
-    /* line-height: 90%; */
-    background-color: #f2f2f2;
+.header_area .main-menu .navbar-nav a:hover {
+    color: var(--primary-color);
 }
 
-.landing h1 {
-    color: rgb(199, 122, 0, 1);
-    font-size: 5em;
-    line-height: 30%;
+/* Banner Area */
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
 }
 
-.landing h2 {
-    /* color: rgb(222, 137, 0, 1); */
-    color: #fff;
-    font-size: 3.5em;
-    line-height: 30%;
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
 }
 
-.landing h3 {
-    color: #fff;
-    font-size: 1.5em;
-    line-height: 10%;
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+
+}
+
+.title-text {
+    font: normal bold 50px/72px "Montserrat";
 }

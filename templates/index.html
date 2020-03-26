@@ -1,0 +1,76 @@
+{% extends "header.html" %}
+
+{% block body %}
+
+        <!-- Header Area -->
+        
+        <header class="header_area">
+            <div class="main-menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">Jake Brehm</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Area -->
+
+        <!-- <div class="landing">
+            <h3>Hey, my name is</h3>
+            <h1>Jake Brehm.</h1>
+            <h2>I do things sometimes.</h2>
+            <br>
+            <p>I'm a systems engineer currently working in the Buffalo, NY area.</p>
+            <br>
+            <p><a href="/">Get in touch</a></p>
+        </div> -->
+
+        <main class="site-main">
+
+            <!-- Banner Area -->
+
+            <section class="site-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 site-title">
+                            <h3 class="title-text">Hey, my name is</h3>
+                            <h1 class="title-text text-uppercase">Jake Brehm.</h1>
+                            <h4 class="title-tex text-uppercase">I do things sometimes.</h4>
+                            <div class="site-buttons">
+                                <div class="d-flex flow-row flex-wrap">
+                                    <button type="button" class="btn button primary-button mr-4 text-uppercase">Get in touch</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 banner-image">
+                            <img src="{{ url_for('static', filename='img/portrait.jpg') }}" alt="banner-portrait" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+{% endblock %}
