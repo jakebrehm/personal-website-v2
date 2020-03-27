@@ -7,7 +7,7 @@
         <header class="header_area">
             <div class="main-menu">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#">Jake Brehm</a>
+                    <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='img/signature.png') }}" alt="site-logo" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -35,7 +35,7 @@
             </div>
         </header>
 
-        <!-- Main Area -->
+        <!-- Main Section -->
 
         <!-- <div class="landing">
             <h3>Hey, my name is</h3>
@@ -49,15 +49,15 @@
 
         <main class="site-main">
 
-            <!-- Banner Area -->
+            <!-- Banner Section -->
 
             <section class="site-banner">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 site-title">
-                            <h3 class="title-text">Hey, my name is</h3>
+                            <h4 class="title-text">Hey, my name is</h4>
                             <h1 class="title-text text-uppercase">Jake Brehm.</h1>
-                            <h4 class="title-text text-uppercase">I'm an engineer.</h4>
+                            <h3 class="title-text text-uppercase">I'm an engineer.</h3>
                             <div class="site-buttons">
                                 <div class="d-flex flow-row flex-wrap">
                                     <button type="button" class="btn button primary-button mr-4 text-uppercase">Get in touch</button>
@@ -67,6 +67,35 @@
                         </div>
                         <div class="col-lg-6 col-md-12 banner-image">
                             <img src="{{ url_for('static', filename='img/portrait.png') }}" alt="banner-portrait" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Area -->
+
+            <section class="about-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="about-image">
+                                <!-- <img src="" alt=""> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 about-title">
+                            <h2 class="text-uppercase pt-5">
+                                <span>Let me</span>
+                                <span>introduce</span>
+                                <span>myself</span>
+                            </h2>
+                            <div class="paragraph py-4 w-75">
+                                <p class="para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fuga et sit vel sed alias nemo veritatis. Aliquid, unde cumque!
+                                </p>
+                                <p class="para">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, cupiditate. Ipsa et aliquid aspernatur quo harum quidem corrupti quibusdam molestias ut itaque quod ipsam eum, veritatis delectus. Sapiente, exercitationem ullam.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -11,6 +11,11 @@
     padding: 1rem 20rem;
 }
 
+.header_area .main-menu .navbar .navbar-brand > img {
+    width: 35%;
+    height: auto;
+}
+
 .header_area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px "Montserrat";
     text-transform: uppercase;
@@ -25,10 +30,9 @@
     color: var(--primary-color);
 }
 
-/* Banner Area */
+/* Banner Section */
 
 .site-main .site-banner .site-title h3 {
-    padding-top: 35%;
     font-weight: 500;
 }
 
@@ -47,6 +51,7 @@
 }
 
 .site-main .site-banner .site-title h4 {
+    padding-top: 35%;
     font-size: 1.5rem;
 }
 
@@ -58,4 +63,25 @@
     /* width: 25rem; */
     margin: auto;
     display: block;
+}
+
+/* About Section */
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49 px/60px "Montserrat";
+    letter-spacing: 21px;;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+    padding: .4rem 0;
+}
+
+p.para {
+    color: var(--text-color);
+    font: normal 500 16px/25px "Montserrat";
 }
