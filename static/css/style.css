@@ -85,3 +85,29 @@ p.para {
     color: var(--text-color);
     font: normal 500 16px/25px "Montserrat";
 }
+
+/* Skills Section */
+
+.site-main .skills-area {
+    padding: 7rem 2rem;
+}
+
+.site-main .skills-area .skills-title {
+    padding: 0 14rem;
+}
+
+.site-main .skills-area .skills-title h1 {
+    font-size: 35px;
+}
+
+.site-main > .skills-area .skills {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .skills-area .skills:hover {
+    box-shadow: var(--box-shadow);
+}

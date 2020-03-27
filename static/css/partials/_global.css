@@ -8,6 +8,10 @@
     text-transform: uppercase;
 }
 
+.text-montserrat {
+    font-family: "Montserrat";
+}
+
 /* Buttons */
 
 .button {
