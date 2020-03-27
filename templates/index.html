@@ -54,19 +54,18 @@
             <section class="site-banner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12 site-title">
-                            <h4 class="title-text">Hey, my name is</h4>
-                            <h1 class="title-text text-uppercase">Jake Brehm.</h1>
-                            <h3 class="title-text text-uppercase">I'm an engineer.</h3>
-                            <div class="site-buttons">
-                                <div class="d-flex flow-row flex-wrap">
-                                    <button type="button" class="btn button primary-button mr-4 text-uppercase">Get in touch</button>
-                                    <button type="button" class="btn button secondary-button text-uppercase">View my resume</button>
+                        <div class="col-lg-12 col-md-12 site-title">
+                            <div class="mx-auto site-title-contents">
+                                <h4 class="title-text">Hey, my name is</h4>
+                                <h1 class="title-text text-uppercase">Jake Brehm.</h1>
+                                <h3 class="title-text text-uppercase">I'm an engineer.</h3>
+                                <div class="site-buttons">
+                                    <div class="d-flex flow-row flex-wrap">
+                                        <button type="button" class="btn button primary-button mr-4 text-uppercase">Get in touch</button>
+                                        <button type="button" class="btn button secondary-button text-uppercase">View my resume</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 banner-image">
-                            <img src="{{ url_for('static', filename='img/portrait.png') }}" alt="banner-portrait" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -78,15 +77,18 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
+                            <!-- <div class="about-image"> -->
                             <div class="about-image">
                                 <!-- <img src="" alt=""> -->
+                                <img src="{{ url_for('static', filename='img/portrait.png') }}" alt="banner-portrait" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 about-title">
                             <h2 class="text-uppercase pt-5">
-                                <span>Let me</span>
-                                <span>introduce</span>
-                                <span>myself</span>
+                                <!-- <span>Let me</span> -->
+                                <!-- <span>introduce</span> -->
+                                <!-- <span>myself</span> -->
+                                <span>Let me introduce myself</span>
                             </h2>
                             <div class="paragraph py-4 w-75">
                                 <p class="para">

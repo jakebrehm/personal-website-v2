@@ -36,33 +36,22 @@
     font-weight: 500;
 }
 
-/* .site-main .site-banner .site-title h3::after {
-    content: "";
-    height: 2px;
-    width: 18vw;
-    background: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translateY(-10px);
-} */
-
 .site-main .site-banner .site-title h1 {
     font-size: 5rem;
 }
 
 .site-main .site-banner .site-title h4 {
-    padding-top: 35%;
     font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-image > img {
-    padding-top: 9rem;
-    padding-bottom: 6.5rem;
-    width: 30rem;
-    /* padding-top: 11rem; */
-    /* width: 25rem; */
-    margin: auto;
-    display: block;
+.site-main .site-banner .site-title {
+    height: 90vh;
+}
+
+.site-main .site-banner .site-title .site-title-contents {
+    width: fit-content;
+    height: fit-content;
+    padding-top: 25vh;
 }
 
 /* About Section */
@@ -74,7 +63,7 @@
 .site-main .about-area .about-title h2 > span {
     display: block;
     font: normal bold 49 px/60px "Montserrat";
-    letter-spacing: 21px;;
+    /* letter-spacing: 21px; */
 }
 
 .site-main .about-area .about-title .paragraph > p {
@@ -84,6 +73,14 @@
 p.para {
     color: var(--text-color);
     font: normal 500 16px/25px "Montserrat";
+}
+
+.site-main .about-area .about-image > img {
+    padding-top: 9rem;
+    padding-bottom: 6.5rem;
+    width: 30rem;
+    margin: auto;
+    display: block;
 }
 
 /* Skills Section */
