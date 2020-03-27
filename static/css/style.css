@@ -64,6 +64,8 @@
 
 .site-main .about-area {
     padding: 8rem 5rem;
+
+    /* height: 100vh; */
 }
 
 .site-main .about-area .about-title h2 > span {
