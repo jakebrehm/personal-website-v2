@@ -3,12 +3,18 @@
 @import url(./partials/_global.css);
 
 /* Navigation Bar */
-/* .header_area .main-menu .navbar-brand {
-    padding: 0 2rem 0 5rem;
-} */
+.header_area .main-menu .navbar-brand {
+    padding: 0 2rem 0 0;
+}
 
 .header_area .main-menu .navbar {
     padding: 1rem 20rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: whitesmoke;
+    width: 100vw;
+    box-shadow: var(--box-shadow);
 }
 
 .header_area .main-menu .navbar .navbar-brand > img {
@@ -45,13 +51,13 @@
 }
 
 .site-main .site-banner .site-title {
-    height: 90vh;
+    height: 100vh;
 }
 
 .site-main .site-banner .site-title .site-title-contents {
     width: fit-content;
     height: fit-content;
-    padding-top: 25vh;
+    padding-top: 35vh;
 }
 
 /* About Section */
