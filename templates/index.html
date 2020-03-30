@@ -69,8 +69,12 @@
                                 <h3 class="title-text text-uppercase">I'm an engineer.</h3>
                                 <div class="site-buttons">
                                     <div class="d-flex flow-row flex-wrap">
-                                        <button type="button" class="btn button primary-button mr-4 text-uppercase">Get in touch</button>
-                                        <button type="button" class="btn button secondary-button text-uppercase">View my resume</button>
+                                        <!-- <button type="button" class="btn button primary-button mr-4 text-uppercase">Get in touch</button> -->
+                                        <!-- <button type="button" class="btn button secondary-button text-uppercase">
+                                            <a href="{{ url_for('static', filename='resume.pdf') }}">View my resume</a>
+                                        </button> -->
+                                        <a href="mailto:mail@jakebrehm.com" class="btn button primary-button mr-4 text-uppercase">Get in touch</a>
+                                        <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn button secondary-button text-uppercase">View my resume</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,10 +101,16 @@
                             </h2>
                             <div class="paragraph py-4 w-75">
                                 <p class="para">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fuga et sit vel sed alias nemo veritatis. Aliquid, unde cumque!
+                                    I'm Jake, an engineer currently based in the Buffalo, NY area.
+                                    I'm equipped with a bachelor's degree in mechanical engineering from
+                                    <a href="https://www.clarkson.edu/">Clarkson University</a>, with
+                                    a strong focus on math and physics.
+
                                 </p>
                                 <p class="para">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, cupiditate. Ipsa et aliquid aspernatur quo harum quidem corrupti quibusdam molestias ut itaque quod ipsam eum, veritatis delectus. Sapiente, exercitationem ullam.
+                                    Since graduating, my varied education and experienced have afforded me the
+                                    opportunity to work in both the electrical and software engineering
+                                    fields. My interests, as well as the bulk of my experience, currently lie in the latter.
                                 </p>
                             </div>
                         </div>
@@ -125,11 +135,14 @@
 
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="skills">
-                                <div class="services-image text-center py-4"></div>
+                                <div class="services-image text-center py-4">
+                                    <!-- <img src="" alt=""> -->
+                                </div>
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase">Python</h5>
                                     <p class="card-text text-secondary">
-                                        I have been developing software, professionally and recreationally, using Python for 2 years.
+                                        <!-- I have been developing software, professionally and recreationally, using Python for 2 years. -->
+                                        I have been using Python, professionally and recreationally, for 2 years.
                                     </p>
                                 </div>
                             </div>
@@ -139,9 +152,10 @@
                             <div class="skills">
                                 <div class="services-image text-center py-4"></div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase">Python</h5>
+                                    <h5 class="card-title text-uppercase">LabVIEW</h5>
                                     <p class="card-text text-secondary">
-                                        I have been developing software, professionally and recreationally, using Python for 2 years.
+                                        <!-- I have been developing software, professionally and recreationally, using Python for 2 years. -->
+                                        I use LabVIEW professionally and have received a lot of training.
                                     </p>
                                 </div>
                             </div>
@@ -151,9 +165,9 @@
                             <div class="skills">
                                 <div class="services-image text-center py-4"></div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase">Python</h5>
+                                    <h5 class="card-title text-uppercase">Automation</h5>
                                     <p class="card-text text-secondary">
-                                        I have been developing software, professionally and recreationally, using Python for 2 years.
+                                        I automate common computer tasks and product testing professionally.
                                     </p>
                                 </div>
                             </div>
@@ -163,7 +177,7 @@
                             <div class="skills">
                                 <div class="services-image text-center py-4"></div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase">Python</h5>
+                                    <h5 class="card-title text-uppercase">Software Development</h5>
                                     <p class="card-text text-secondary">
                                         I have been developing software, professionally and recreationally, using Python for 2 years.
                                     </p>

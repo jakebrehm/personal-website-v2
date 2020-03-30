@@ -1,5 +1,9 @@
 /* Global Classes */
 
+a {
+    color: var(--primary-color);
+}
+
 .title-text {
     font: normal bold 50px/72px "Montserrat";
 }
