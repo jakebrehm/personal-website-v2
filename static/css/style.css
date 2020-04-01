@@ -3,11 +3,11 @@
 @import url(./partials/_global.css);
 
 /* Navigation Bar */
-.header_area .main-menu .navbar-brand {
+.header-area .main-menu .navbar-brand {
     padding: 0 2rem 0 0;
 }
 
-.header_area .main-menu .navbar {
+.header-area .main-menu .navbar {
     padding: 1rem 20rem;
     position: fixed;
     top: 0;
@@ -17,22 +17,22 @@
     box-shadow: var(--box-shadow);
 }
 
-.header_area .main-menu .navbar .navbar-brand > img {
+.header-area .main-menu .navbar .navbar-brand > img {
     width: 35%;
     height: auto;
 }
 
-.header_area .main-menu .nav-item .nav-link {
+.header-area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px "Montserrat";
     text-transform: uppercase;
     padding: 1.7rem;
 }
 
-.header_area .main-menu .navbar-nav .active a {
+.header-area .main-menu .navbar-nav .active a {
     color: var(--primary-color);
 }
 
-.header_area .main-menu .navbar-nav a:hover {
+.header-area .main-menu .navbar-nav a:hover {
     color: var(--primary-color);
 }
 
