@@ -141,3 +141,28 @@ p.para {
 .site-main .project-area .grid .our-project .img a:hover img {
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
+
+/* Footer Section */
+
+footer.footer-area {
+    padding-top: 5rem;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/30px "Montserrat";
+}
+
+footer.footer-area .social a > i {
+    font-size: 40px;
+    padding: 2rem;
+    color: var(--text-color);
+}
+
+footer.footer-area .social a:hover > i {
+    color: var(--primary-color);
+}
+
+footer.footer-area .copyright {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
