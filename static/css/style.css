@@ -95,6 +95,7 @@ p.para {
 
 .site-main .skills-area {
     padding: 7rem 2rem;
+    /* height: 100vh; */
 }
 
 .site-main .skills-area .skills-title {
@@ -121,6 +122,7 @@ p.para {
 
 .site-main .project-area {
     padding: 4rem 0;
+    /* height: 100vh; */
 }
 
 .site-main .project-area .button-group button {
