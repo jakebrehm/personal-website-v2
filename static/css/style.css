@@ -7,14 +7,14 @@
     padding: 0 2rem 0 0;
 }
 
-.header-area .main-menu .navbar {
+.header-area .main-menu .navbar-default {
     padding: 1rem 20rem;
     position: fixed;
-    top: 0;
+    top: -1px;
+    left: 0;
+    right: 0;
     z-index: 9999;
-    background-color: whitesmoke;
     width: 100vw;
-    box-shadow: var(--box-shadow);
 }
 
 .header-area .main-menu .navbar .navbar-brand > img {

@@ -78,3 +78,16 @@ button:hover
 .title-h1 {
     font: normal bold 39px/40px "Montserrat";
 }
+
+.navbar-fixed {
+    padding: 1rem 20rem;
+    position: fixed;
+    width: 100vw;
+    top: -1px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: whitesmoke;
+    box-shadow: var(--box-shadow);
+    transition: background 1s ease;
+}
