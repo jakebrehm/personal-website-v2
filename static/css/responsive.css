@@ -14,6 +14,7 @@
     .site-main > .skills-area .skills {
         width: 13rem;
     }
+
 }
 
 /* Viewports of 792px or less */
@@ -49,4 +50,16 @@
     .site-main .about-area {
         padding: 3% 4%;
     }
+
+    .site-main .skills-area {
+        padding: 7rem 0;
+    }
+
+    .site-main .skills-area .skills-list {
+        padding: 0;
+    }
+
+    /* .site-main > .skills-area .skills {
+        padding: 0;
+    } */
 }
