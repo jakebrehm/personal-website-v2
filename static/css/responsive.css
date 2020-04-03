@@ -22,7 +22,7 @@
 @media only screen and (max-width: 792px) {
     .site-main .about-area .about-title h2 > span {
         font-size: 31px;
-        letter-spacing: 10px;
+        /* letter-spacing: 10px; */
     }
 
     .site-main .project-area .button-group button {
@@ -35,12 +35,29 @@
 
 }
 
-/* Viewports of 1910px or less */
+/* Viewports of 1440px or less */
 
-@media only screen and (max-width: 1910px) {
+@media only screen and (max-width: 1440px) {
     .header-area .main-menu .navbar {
         padding: 1rem;
     }
+
+    .about-title h2 {
+        text-align: center;
+    }
+
+    .about-area .about-title .paragraph > p {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+/* Viewports of 1910px or less */
+
+@media only screen and (max-width: 1910px) {
+    /* .header-area .main-menu .navbar {
+        padding: 1rem;
+    } */
 
     .container {
         max-width: 90%;
