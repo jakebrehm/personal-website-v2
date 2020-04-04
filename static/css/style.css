@@ -5,6 +5,7 @@
 /* Navigation Bar */
 .header-area .main-menu .navbar-brand {
     padding: 0 2rem 0 0;
+    width: 30%;
 }
 
 .header-area .main-menu .navbar-default {
@@ -18,7 +19,7 @@
 }
 
 .header-area .main-menu .navbar .navbar-brand > img {
-    width: 35%;
+    width: 90px;
     height: auto;
 }
 
@@ -137,11 +138,12 @@ p.para {
     padding-left: 3rem;
 }
 
-.site-main .project-area .grid .our-project > .title h4 {
-    font: normal 700 25px/12px "Montserrat";
+.site-main .project-area .grid .project-item > .title h4 {
+    /* font: normal 700 25px/12px "Montserrat"; */
+    font: normal 700 25px/30px "Montserrat";
 }
 
-.site-main .project-area .grid .our-project .img a:hover img {
+.site-main .project-area .grid .project-item .img a:hover img {
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
