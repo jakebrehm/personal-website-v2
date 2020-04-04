@@ -74,6 +74,16 @@
 
 }
 
+/* Viewports between 990px and 1340px */
+
+@media only screen and (min-width: 990px) and (max-width: 1340px) {
+
+    .site-main > .skills-area .skills {
+        width: 12rem;
+    }
+
+}
+
 /* Viewports of 1440px or less */
 
 @media only screen and (max-width: 1440px) {
