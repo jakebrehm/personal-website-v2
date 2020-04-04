@@ -33,6 +33,9 @@
          padding: 0%;
     }
 
+    .site-main > .skills-area .skills {
+        margin: 2rem .5rem;
+    }
 }
 
 /* Viewports of 1440px or less */
@@ -51,6 +54,12 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    /* .skills {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    } */
 
 /* Viewports of 1910px or less */
 
