@@ -31,7 +31,6 @@ $(document).ready(function(){
                     $('.header-area .main-menu .navbar').addClass('navbar-fixed');
                     $('.header-area .main-menu .navbar').removeClass('navbar-default');
                 } else {
-                    // $('.header-area .main-menu .navbar').removeClass('navbar-default');
                     $('.header-area .main-menu .navbar').removeClass('navbar-fixed');
                     $('.header-area .main-menu .navbar').addClass('navbar-default');
                 }
