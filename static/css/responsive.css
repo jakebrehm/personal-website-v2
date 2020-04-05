@@ -19,10 +19,6 @@
         width: 13rem;
     }
 
-    /* .site-main .project-area .grid .project-item > .title h4 {
-        font: normal 700 25px/30px "Montserrat";
-    } */
-
 }
 
 /* Viewports of 792px or less */
@@ -35,7 +31,6 @@
 
     .site-main .about-area .about-title h2 > span {
         font-size: 31px;
-        /* letter-spacing: 10px; */
     }
 
     .site-main .project-area .button-group button {
@@ -87,6 +82,7 @@
 /* Viewports of 1440px or less */
 
 @media only screen and (max-width: 1440px) {
+
     .header-area .main-menu .navbar {
         padding: 1rem;
     }
@@ -101,18 +97,11 @@
         margin: 0 auto;
     }
 
-    /* .site-main .project-area .grid .project-item > .title h4 {
-        font: normal 700 25px/30px "Montserrat";
-    } */
-
 }
 
 /* Viewports of 1910px or less */
 
 @media only screen and (max-width: 1910px) {
-    /* .header-area .main-menu .navbar {
-        padding: 1rem;
-    } */
 
     .container {
         max-width: 90%;
@@ -131,7 +120,4 @@
         padding: 0;
     }
 
-    /* .site-main > .skills-area .skills {
-        padding: 0;
-    } */
 }

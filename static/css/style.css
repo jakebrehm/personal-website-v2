@@ -120,7 +120,7 @@ p.para {
     box-shadow: var(--box-shadow);
 }
 
-/* Proejct Section */
+/* Project Section */
 
 .site-main .project-area {
     padding: 4rem 0;
@@ -143,9 +143,22 @@ p.para {
     font: normal 700 25px/30px "Montserrat";
 }
 
-.site-main .project-area .grid .project-item .img a:hover img {
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+.site-main .project-area .grid .project-item .img > img {
+    width: 300px;
+    height: auto;
 }
+
+.site-main .project-area .grid .project-item .img {
+    text-align: center;
+}
+
+/* .project-title {
+    background: red;
+} */
+
+/* .site-main .project-area .grid .project-item .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+} */
 
 /* Footer Section */
 
