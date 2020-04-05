@@ -139,8 +139,11 @@ p.para {
 }
 
 .site-main .project-area .grid .project-item > .title h4 {
-    /* font: normal 700 25px/12px "Montserrat"; */
     font: normal 700 25px/30px "Montserrat";
+}
+
+.site-main .project-area .grid .project-item .title {
+    padding-top: 1rem;
 }
 
 .site-main .project-area .grid .project-item .img > img {
@@ -152,13 +155,29 @@ p.para {
     text-align: center;
 }
 
-/* .project-title {
-    background: red;
-} */
+.site-main .project-area .grid .project-item {
+    padding-top: 2rem;
+}
 
-/* .site-main .project-area .grid .project-item .img a:hover img {
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
-} */
+.site-main .project-area .grid .project-item .project-links {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.site-main .project-area .grid .project-item .project-links a > i {
+    font-size: 20px;
+    padding-right: 0.5rem;
+    color: var(--text-color);
+}
+
+.site-main .project-area .grid .project-item .project-links a:last-of-type > i {
+    padding-right: 0;
+}
+
+.site-main .project-area .grid .project-item .project-links a:hover > i {
+    color: var(--primary-color);
+}
 
 /* Footer Section */
 
