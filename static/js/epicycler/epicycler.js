@@ -18,7 +18,17 @@ function setup() {
     canvas.style('display', 'block');
     // Set the background color to black
     background(0);
+
+    // // Add a back button
+    // button = createButton('Back');
+    // button.position(20, 20);
+    // button.mousePressed(goBack);
 }
+
+// function goBack() {
+//     // Go to the previously visited webpage
+//     window.open(history.back());
+// }
 
 function mousePressed() {
     // Enter the drawing state
