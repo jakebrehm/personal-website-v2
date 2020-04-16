@@ -10,7 +10,13 @@ def homepage():
     projects_filename = os.path.join(app.static_folder, 'projects.json')
     with open(projects_filename) as projects_json:
         projects = json.load(projects_json)
-    return render_template('index.html', projects=projects, show_images=False)
+    languages = sorted({project['language'] for project in projects.values()})
+    return render_template(
+        'index.html',
+        projects=projects,
+        languages=languages,
+        show_images=False,
+    )
 
 @app.route('/epicycler/')
 def epicycler():

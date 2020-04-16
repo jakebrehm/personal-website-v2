@@ -207,8 +207,9 @@
 
                     <div class="button-group">
                         <button type="button" data-filter="*" id="btn1" class="active">All</button>
-                        <button type="button" data-filter=".python">Python</button>
-                        <button type="button" data-filter=".javascript">JavaScript</button>
+                        {% for language in languages %}
+                            <button type="button" data-filter=".{{language.lower()}}">{{language}}</button>
+                        {% endfor %}
                     </div>
 
                     <div class="row grid">
