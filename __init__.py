@@ -1,9 +1,16 @@
+import json
+import os
+
 from flask import Flask, render_template
+
 app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return render_template('index.html')
+    projects_filename = os.path.join(app.static_folder, 'projects.json')
+    with open(projects_filename) as projects_json:
+        projects = json.load(projects_json)
+    return render_template('index.html', projects=projects, show_images=False)
 
 @app.route('/epicycler/')
 def epicycler():
