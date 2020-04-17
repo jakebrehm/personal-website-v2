@@ -207,39 +207,37 @@
 
                     <div class="button-group">
                         <button type="button" data-filter="*" id="btn1" class="active">All</button>
-                        {% for language in languages %}
-                            <button type="button" data-filter=".{{language.lower()}}">{{language}}</button>
+                        {% for tag in tags %}
+                            <button type="button" data-filter=".{{tag.lower().replace('/', '-')}}">{{tag}}</button>
                         {% endfor %}
                     </div>
 
                     <div class="row grid">
-                        {% for project in projects %}
-                            <div class="col-lg-4 col-md-6 col-sm-12 element-item {{projects[project]['language'].lower()}}">
+                        {% for project, info in projects.items() %}
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item{% for tag in info['tags'] %} {{tag.lower().replace('/', '-')}}{% endfor %}">
                                 <div class="project-item">
-                                    <!-- <div class="img">
-                                        <img src="{{ url_for('static', filename='img/reddit-downloader.png') }}" alt="Reddit Downloader">
-                                    </div> -->
-                                    {% if show_images and projects[project]['image'] %}
+                                    {% if show_images and info['image'] %}
                                         <div class="img">
-                                            <img src="{{ url_for('static', filename=projects[project]['image']) }}" alt="Reddit Downloader">
+                                            <img src="{{ url_for('static', filename=info['image']) }}" alt="Reddit Downloader">
                                         </div>
                                     {% endif %}
                                     <div class="title">
                                         <h4 class="text-uppercase">{{project}}</h4>
-                                        <span class="text-secondary">{{projects[project]['language']}}</span>
+                                        <span class="text-secondary">{{', '.join(info['tags'])}}</span>
                                     </div>
                                     <div class="project-links">
-                                        {% if 'github' in projects[project]['links'] %}
-                                            <a href="https://github.com/jakebrehm/{{projects[project]['links']['github']}}" target="_blank"><i class="fab fa-github"></i></a>
+                                        {% if 'github' in info['links'] %}
+                                            <a href="https://github.com/jakebrehm/{{info['links']['github']}}" target="_blank"><i class="fab fa-github"></i></a>
                                         {% endif %}
-                                        {% if 'preview' in projects[project]['links'] %}
-                                            <a href="{{projects[project]['links']['preview']}}" target="_blank"><i class="fas fa-play"></i></a>
+                                        {% if 'preview' in info['links'] %}
+                                            <a href="{{info['links']['preview']}}" target="_blank"><i class="fas fa-play"></i></a>
                                         {% endif %}
                                     </div>
                                 </div>
                             </div>
                         {% endfor %}
                     </div>
+
                 </div>
             </section>
 

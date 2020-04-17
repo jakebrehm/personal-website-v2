@@ -10,11 +10,11 @@ def homepage():
     projects_filename = os.path.join(app.static_folder, 'projects.json')
     with open(projects_filename) as projects_json:
         projects = json.load(projects_json)
-    languages = sorted({project['language'] for project in projects.values()})
+    tags = {tag.lower() for project in projects.values() for tag in project['tags']}
     return render_template(
         'index.html',
         projects=projects,
-        languages=languages,
+        tags=tags,
         show_images=False,
     )
 
