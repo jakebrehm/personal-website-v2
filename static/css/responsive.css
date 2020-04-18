@@ -23,6 +23,16 @@
 
 /* Viewports of 792px or less */
 
+@media only screen and (max-width: 450px) {
+
+    .site-main .site-banner .site-title .site-title-contents {
+        padding-top: 12vh;
+    }
+
+}
+
+/* Viewports of 792px or less */
+
 @media only screen and (max-width: 792px) {
 
     .button {
@@ -44,6 +54,7 @@
     .site-main .site-banner .site-title h1 {
         font-size: 4.5rem;
     }
+
 }
 
 /* Viewports of 990px or less */
