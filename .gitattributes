@@ -1,0 +1,5 @@
+static/vendor/* linguist-vendored
+static/js/bootstrap.min.js linguist-vendored
+static/js/jquery.3.4.1.js linguist-vendored
+static/css/all.min.css linguist-vendored
+static/css/bootstrap.min.css linguist-vendored
