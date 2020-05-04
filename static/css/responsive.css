@@ -29,10 +29,10 @@
         padding-top: 12vh;
     }
 
-    footer.footer-area .social a > i {
+    /* footer.footer-area .social a > i {
         font-size: 25px;
         padding: 0.5rem;
-    }
+    } */
 
 }
 
@@ -58,6 +58,11 @@
 
     .site-main .site-banner .site-title h1 {
         font-size: 4.5rem;
+    }
+
+    footer.footer-area .social a > i {
+        font-size: 25px;
+        padding: 0.5rem;
     }
 
 }
