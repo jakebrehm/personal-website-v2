@@ -65,18 +65,18 @@
 
 .site-main .about-area {
     padding: 8rem 5rem;
-
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .site-main .about-area .about-title h2 > span {
     display: block;
-    font: normal bold 49 px/60px "Montserrat";
+    font: normal bold 3rem/60px "Montserrat";
     /* letter-spacing: 21px; */
 }
 
 .site-main .about-area .about-title .paragraph > p {
     padding: .4rem 0;
+    font-size: 1.5rem;
     /* width: 75%; */
 }
 
@@ -85,46 +85,11 @@ p.para {
     font: normal 500 16px/25px "Montserrat";
 }
 
-.site-main .about-area .about-image > img {
-    padding-top: 9rem;
-    padding-bottom: 6.5rem;
-    width: 30rem;
-    margin: auto;
-    display: block;
-}
-
-/* Skills Section */
-
-.site-main .skills-area {
-    padding: 7rem 2rem;
-    /* height: 100vh; */
-}
-
-.site-main .skills-area .skills-title {
-    padding: 0 14rem;
-}
-
-.site-main .skills-area .skills-title h1 {
-    font-size: 35px;
-}
-
-.site-main > .skills-area .skills {
-    background: rgba(250, 242, 237, 0.973);
-    padding: 2rem 0;
-    width: 16rem;
-    margin: 5rem .5rem;
-    transition: box-shadow .7s ease;
-}
-
-.site-main > .skills-area .skills:hover {
-    box-shadow: var(--box-shadow);
-}
-
 /* Project Section */
 
 .site-main .project-area {
     padding: 4rem 0;
-    /* height: 100vh; */
+    min-height: 100vh;
 }
 
 .site-main .project-area .button-group button {
