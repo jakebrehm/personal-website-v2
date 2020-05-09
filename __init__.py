@@ -11,6 +11,8 @@ def homepage():
     with open(projects_filename) as projects_json:
         projects = json.load(projects_json)
     tags = {tag.lower() for project in projects.values() for tag in project['tags']}
+    tags.discard('featured')
+    print(tags)
     return render_template(
         'index.html',
         projects=projects,
