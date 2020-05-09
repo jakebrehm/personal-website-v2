@@ -29,11 +29,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <button type="button" class="btn button primary-button mr-4 text-uppercase">Resume</button>
-                                </a>
-                            </li> -->
+                            <li class="nav-item">
+                                <!-- <a class="nav-link" href="#">
+                                    <button type="button" class="btn nav-button mr-4 text-uppercase">Resume</button>
+                                </a> -->
+                                <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn nav-button text-uppercase">Resume</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>

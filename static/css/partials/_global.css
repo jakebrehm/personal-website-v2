@@ -18,6 +18,22 @@ a {
 
 /* Buttons */
 
+.nav-button {
+    margin-top: 0.45rem;
+    margin-left: 1.5rem;
+    padding: 0.5rem 0.5rem;
+    font: normal 500 16px/20px "Montserrat";
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+
+    background: var(--primary-gradient);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
 .button {
     padding: .8rem 2.2rem;
     font: normal 500 16px/20px "Montserrat";
@@ -27,7 +43,6 @@ a {
 }
 
 .button.primary-button {
-    /* background: var(--primary-color); */
     background: var(--primary-gradient);
     background-clip: padding-box;
     color: whitesmoke;
@@ -35,14 +50,16 @@ a {
     box-shadow: var(--box-shadow);
 }
 
+.nav-button:hover,
 .button.primary-button:hover {
     background: whitesmoke;
     background-clip: padding-box;
     color: var(--primary-color);
 }
 
+.nav-button::after,
 .button.primary-button::after,
- .button.secondary-button::after {
+.button.secondary-button::after {
     position: absolute;
     top: -2px;
     left: -2px;
