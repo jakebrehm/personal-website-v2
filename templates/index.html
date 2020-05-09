@@ -23,18 +23,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">About</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="#skills">Skills</a>
-                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="#">Resume</a>
-                            </li> -->
                             <!-- <li class="nav-item">
                                 <a class="nav-link" href="#">
                                     <button type="button" class="btn button primary-button mr-4 text-uppercase">Resume</button>
@@ -47,16 +41,6 @@
         </header>
 
         <!-- Main Section -->
-
-        <!-- <div class="landing">
-            <h3>Hey, my name is</h3>
-            <h1>Jake Brehm.</h1>
-            <h2>I do things sometimes.</h2>
-            <br>
-            <p>I'm a systems engineer currently working in the Buffalo, NY area.</p>
-            <br>
-            <p><a href="/">Get in touch</a></p>
-        </div> -->
 
         <main class="site-main">
 
@@ -86,39 +70,6 @@
                 </div>
             </section>
 
-            <!-- About Area -->
-
-            <!-- <section class="about-area" id="about">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="about-image">
-                                <img src="{{ url_for('static', filename='img/portrait.png') }}" alt="banner-portrait" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 about-title my-auto">
-                            <h2 class="text-uppercase pt-5">
-                                <span>A little about me</span>
-                            </h2>
-                            <div class="paragraph py-4">
-                                <p class="para">
-                                    I'm Jake, an engineer currently based in the Buffalo, NY area.
-                                    I'm equipped with a bachelor's degree in mechanical engineering from
-                                    <a href="https://www.clarkson.edu/">Clarkson University</a>, with
-                                    a strong focus on math and physics.
-
-                                </p>
-                                <p class="para">
-                                    Since graduating, my varied education and experienced have afforded me the
-                                    opportunity to work in both the electrical and software engineering
-                                    fields. My interests, as well as the bulk of my experience, currently lie in the latter.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
             <section class="about-area" id="about">
                 <div class="container">
                     <div class="row">
@@ -145,78 +96,6 @@
                 </div>
             </section>
 
-            <!-- Skills Section -->
-
-            <!-- <section class="skills-area" id="skills">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center skills-title">
-                            <h1 class="text-uppercase title-text">What I Can Offer You</h1>
-                            <p class="para">
-                                Here are a few languages I've worked with and skills I've honed recently.
-                            </p>
-                        </div>
-                    </div>
-                <div class="container skills-list">
-                    <div class="row">
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="skills mx-auto">
-                                <div class="skills-image text-center py-4">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase">Python</h5>
-                                    <p class="card-text text-secondary">
-                                        I have been using Python, professionally and recreationally, for 2 years.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="skills mx-auto">
-                                <div class="skills-image text-center py-4">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase">LabVIEW</h5>
-                                    <p class="card-text text-secondary">
-                                        I use LabVIEW professionally and have received a lot of training.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="skills mx-auto">
-                                <div class="skills-image text-center py-4">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase">Automation</h5>
-                                    <p class="card-text text-secondary">
-                                        I automate common computer tasks and product testing professionally.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="skills mx-auto">
-                                <div class="skills-image text-center py-4">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase">Software Development</h5>
-                                    <p class="card-text text-secondary">
-                                        I have been developing software, professionally and recreationally, using Python for 2 years.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                </div>
-            </section> -->
-
             <!-- Project Section -->
 
             <section class="project-area" id="projects">
@@ -226,7 +105,6 @@
                     </div>
 
                     <div class="button-group">
-                        <!-- <button type="button" data-filter="*" id="btn1" class="active">All</button> -->
                         <button type="button" data-filter="*" id="btn1">All</button>
                         <button type="button" data-filter=".featured" id="btn1" class="active">Featured</button>
                         {% for tag in tags %}
@@ -247,6 +125,13 @@
                                         <h4 class="text-uppercase">{{project}}</h4>
                                         <span class="text-secondary">{{', '.join(info['tags'])}}</span>
                                     </div>
+
+                                    <div class="description">
+                                        {% if 'description' in info and info['description'] %}
+                                            {{info['description']}}
+                                        {% endif %}
+                                    </div>
+
                                     <div class="project-links">
                                         {% if 'github' in info['links'] %}
                                             <a href="https://github.com/jakebrehm/{{info['links']['github']}}" target="_blank"><i class="fab fa-github"></i></a>

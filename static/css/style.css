@@ -159,11 +159,15 @@ p.para {
     padding-top: 2rem;
 }
 
+.site-main .project-area .grid .project-item .description {
+    padding: 0.5rem 0;
+    background-color: rgb(221, 221, 221, 0.15);
+}
+
 .site-main .project-area .grid .project-item .project-links {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
-
 
 .site-main .project-area .grid .project-item .project-links a > i {
     font-size: 20px;

@@ -1,6 +1,9 @@
+import configparser
 import json
 import os
 import pathlib
+
+import github
 
 projects = {
 
@@ -77,5 +80,24 @@ if __name__ == '__main__':
     PROJECT_FOLDER = SCRIPTS_FOLDER.parent
     STATIC_FOLDER = os.path.join(PROJECT_FOLDER, 'static')
     PROJECTS_FILE = os.path.join(STATIC_FOLDER, 'projects.json')
+
+
+    DATA_FOLDER = os.path.join(PROJECT_FOLDER, 'data')
+    CONFIG_FILE = os.path.join(DATA_FOLDER, 'config.ini')
+
+    config = configparser.ConfigParser()
+    config.read(CONFIG_FILE)
+
+    g = github.Github(config['github']['token'])
+    user = g.get_user()
+    for project, info in projects.items():
+        if 'links' in info and 'github' in info['links']:
+            try:
+                repository = user.get_repo(info['links']['github'])
+                description = repository.description
+            except github.GithubException:
+                description = None
+            info['description'] = description
+
     with open(PROJECTS_FILE, 'w') as output:
         json.dump(projects, output)
