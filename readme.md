@@ -1,6 +1,18 @@
-# Personal Portfolio Website
+<p align="center">
+  <img src="https://github.com/jakebrehm/personal-website-v2/blob/master/img/logo.png" width="100" alt="Personal Portfolio Logo"/>
+</p>
 
-The second iteration of my personal website, built with [Flask](https://github.com/pallets/flask) and hosted on [DigitalOcean](https://www.digitalocean.com/).
+<h1 align="center">Personal Portfolio Website - v2</h1>
+
+<p align="center">
+    The second iteration of <a href="https://www.jakebrehm.com/" target="_blank">jakebrehm.com</a>, built with <a href="https://github.com/pallets/flask" target="_blank">Flask</a> and hosted on <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a>.
+</p>
+
+<p align="center">
+  <img src="https://github.com/jakebrehm/personal-website-v2/blob/master/img/screenshot.png" alt="Personal Portfolio Screenshot"/>
+</p>
+
+---
 
 Its sole purpose is to provide an online portfolio which combines information about me with the things I've done.
 
