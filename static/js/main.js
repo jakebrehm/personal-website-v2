@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     $buttons.click(function(e){
 
-        $('.project-area .button-group buttons').removeClass('active');
+        $('.project-area .button-group button').removeClass('active');
         e.target.classList.add('active');
 
         let selector = $(e.target).attr('data-filter');

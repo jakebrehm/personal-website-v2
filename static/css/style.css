@@ -99,6 +99,10 @@ p.para {
     text-transform: uppercase;
 }
 
+.site-main .project-area .button-group .active {
+    color: var(--primary-color);
+}
+
 .site-main .project-area .button-group button + button {
     padding-left: 3rem;
 }

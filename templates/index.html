@@ -106,7 +106,7 @@
                     </div>
 
                     <div class="button-group">
-                        <button type="button" data-filter="*" id="btn1">All</button>
+                        <button type="button" data-filter="*">All</button>
                         <button type="button" data-filter=".featured" id="btn1" class="active">Featured</button>
                         {% for tag in tags %}
                             <button type="button" data-filter=".{{tag.lower().replace('/', '-')}}">{{tag}}</button>
