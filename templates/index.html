@@ -30,9 +30,6 @@
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <!-- <a class="nav-link" href="#">
-                                    <button type="button" class="btn nav-button mr-4 text-uppercase">Resume</button>
-                                </a> -->
                                 <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn nav-button text-uppercase">Resume</a>
                             </li>
                         </ul>
@@ -57,11 +54,7 @@
                                 <h3 class="title-text text-uppercase">I'm an engineer.</h3>
                                 <div class="site-buttons">
                                     <div class="d-flex flow-row flex-wrap">
-                                        <!-- <button type="button" class="btn button primary-button mr-4 text-uppercase">Get in touch</button> -->
-                                        <!-- <button type="button" class="btn button secondary-button text-uppercase">
-                                            <a href="{{ url_for('static', filename='resume.pdf') }}">View my resume</a>
-                                        </button> -->
-                                        <a href="mailto:mail@jakebrehm.com" class="btn button primary-button mr-4 text-uppercase">Get in touch</a>
+                                        <a href="#contact" class="btn button primary-button mr-4 text-uppercase">Get in touch</a>
                                         <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn button secondary-button text-uppercase">View my resume</a>
                                     </div>
                                 </div>
@@ -153,16 +146,10 @@
 
         <footer class="footer-area" id="contact">
             <div class="container">
-                <!-- <div class="d-flex justify-content-center flex-wrap"> -->
                 <div>
-                    <div class="site-logo text-center py-4">
-                        <!-- <a href="#"><img src="" alt=""></a> -->
-                    </div>
                     <div class="social text-center">
-                        <h5 class="text-uppercase">Other ways to get in touch</h5>
-                        <a href="https://www.facebook.com/jakembrehm"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/brehmjake/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://twitter.com/jakebrehm"><i class="fab fa-twitter"></i></a>
+                        <h5 class="text-uppercase">I'd love to hear from you!</h5>
+                        <a href="mailto:mail@jakebrehm.com"><i class="fas fa-envelope"></i></a>
                         <a href="https://www.linkedin.com/in/jacobbrehm/"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/jakebrehm"><i class="fab fa-github"></i></a>
                     </div>
