@@ -62,7 +62,7 @@ projects = {
         'image': '',
         'links': {
             'github': 'cage-discord-bot',
-        }
+        },
     },
 
     'Bother Me Not': {
@@ -70,7 +70,23 @@ projects = {
         'image': '',
         'links': {
             'github': 'bother-me-not',
-        }
+        },
+    },
+
+    'Tooner': {
+        'tags': ['Python'],
+        'image': '',
+        'links': {
+            'github': 'tooner',
+        },
+    },
+
+    'MultiTooner': {
+        'tags': ['Featured', 'Python'],
+        'image': '',
+        'links': {
+            'github': 'multitooner',
+        },
     },
 
 }
@@ -80,7 +96,6 @@ if __name__ == '__main__':
     PROJECT_FOLDER = SCRIPTS_FOLDER.parent
     STATIC_FOLDER = os.path.join(PROJECT_FOLDER, 'static')
     PROJECTS_FILE = os.path.join(STATIC_FOLDER, 'projects.json')
-
 
     DATA_FOLDER = os.path.join(PROJECT_FOLDER, 'data')
     CONFIG_FILE = os.path.join(DATA_FOLDER, 'config.ini')
@@ -100,4 +115,4 @@ if __name__ == '__main__':
             info['description'] = description
 
     with open(PROJECTS_FILE, 'w') as output:
-        json.dump(projects, output)
+        json.dump(projects, output, indent=4)
