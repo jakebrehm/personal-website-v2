@@ -53,6 +53,10 @@
         margin: 0.5rem 0;
     }
 
+    .site-main .project-area .project-title {
+        padding-top: 0rem;
+    }
+
     .site-main .project-area .button-group button {
         font: normal 500 18px/40px "Montserrat";
     }
@@ -112,6 +116,27 @@
         width: 100%;
         margin: 0 auto;
     }
+
+
+
+
+    footer.footer-area {
+        position: static;
+        z-index: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+    footer.footer-area .social {
+        display: inline-block;
+    }
+
+    footer.footer-area .social a > i {
+        padding: 2rem;
+    }
+
+
+
 
 }
 
