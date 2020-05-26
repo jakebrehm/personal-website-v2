@@ -117,28 +117,27 @@
         margin: 0 auto;
     }
 
-
-
-
-    footer.footer-area {
+    footer.footer-area .social-menu {
         position: static;
         z-index: auto;
         bottom: auto;
         left: auto;
     }
 
-    footer.footer-area .social {
+    footer.footer-area .social-menu .social {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    footer.footer-area .social a > i {
+    footer.footer-area .social-menu .social a > i {
+        font-size: 40px;
         padding: 2rem;
     }
 
-
-
+    footer.footer-area .social-menu .social-header {
+        display: block;
+    }
 
 }
 

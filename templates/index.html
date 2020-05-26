@@ -7,7 +7,6 @@
         <header class="header-area">
             <div class="main-menu">
                 <nav class="navbar navbar-expand-lg navbar-light navbar-default">
-                <!-- <nav class="navbar navbar-expand-sm navbar-light navbar-default"> -->
                     <a class="navbar-brand" href="#">
                         <img src="{{ url_for('static', filename='img/signature.png') }}" alt="site-logo" class="img-fluid">
                     </a>
@@ -25,9 +24,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#projects">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn nav-button text-uppercase">Resume</a>
@@ -54,7 +50,7 @@
                                 <h3 class="title-text text-uppercase">I'm an engineer.</h3>
                                 <div class="site-buttons">
                                     <div class="d-flex flow-row flex-wrap">
-                                        <a href="#contact" class="btn button primary-button mr-4 text-uppercase">Get in touch</a>
+                                        <a href="mailto:mail@jakebrehm.com" class="btn button primary-button mr-4 text-uppercase">Get in touch</a>
                                         <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn button secondary-button text-uppercase">View my resume</a>
                                     </div>
                                 </div>
@@ -142,66 +138,32 @@
                 </div>
             </section>
 
-
-            <!-- <div class="social-area">
-                <div class="container">
-                    <div class="social text-center">
-                        <div class="">
-                            <a href="mailto:mail@jakebrehm.com"><i class="fas fa-envelope"></i></a>
-                        </div>
-                        <div class="">
-                            <a href="https://www.linkedin.com/in/jacobbrehm/"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                        <div class="">
-                            <a href="https://github.com/jakebrehm"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-
         </main>
 
-        <footer class="footer-area" id="contact">
-            <div class="container">
+        <!-- Footer and Social Menu -->
+
+        <footer class="footer-area">
+            <div class="social-menu">
                 <div>
+                    <h5 class="social-header text-uppercase text-center">I'd love to hear from you</h5>
                     <div class="social text-center">
-                        <!-- <h5 class="social-header text-uppercase">I'd love to hear from you!</h5> -->
-                        <div class="">
+                        <div>
                             <a href="mailto:mail@jakebrehm.com"><i class="fas fa-envelope"></i></a>
                         </div>
-                        <div class="">
+                        <div>
                             <a href="https://www.linkedin.com/in/jacobbrehm/"><i class="fab fa-linkedin"></i></a>
                         </div>
-                        <div class="">
+                        <div>
                             <a href="https://github.com/jakebrehm"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-                            <!-- <div class="copyright text-center">
-                                <p class="para">
-                                    Designed and built by Jake Brehm
-                                </p>
-                            </div> -->
-        </footer>
-
-        <!-- <footer class="footer-area" id="contact">
-            <div class="container">
-                <div>
-                    <div class="social text-center">
-                        <h5 class="text-uppercase">I'd love to hear from you!</h5>
-                        <a href="mailto:mail@jakebrehm.com"><i class="fas fa-envelope"></i></a>
-                        <a href="https://www.linkedin.com/in/jacobbrehm/"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/jakebrehm"><i class="fab fa-github"></i></a>
-                    </div>
-                    <div class="copyright text-center">
-                        <p class="para">
-                            Designed and built by Jake Brehm
-                        </p>
-                    </div>
-                </div>
+            <div class="copyright text-center">
+                <p class="para">
+                    Designed and built by Jake Brehm
+                </p>
             </div>
-        </footer> -->
+        </footer>
 
 {% endblock %}
