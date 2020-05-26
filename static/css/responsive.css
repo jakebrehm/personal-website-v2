@@ -128,7 +128,9 @@
     }
 
     footer.footer-area .social {
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     footer.footer-area .social a > i {
