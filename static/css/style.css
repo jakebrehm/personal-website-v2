@@ -96,6 +96,15 @@ p.para {
     padding-top: 5rem;
 }
 
+.site-main .project-area .button-group {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.site-main .project-area .button-group::-webkit-scrollbar {
+    display: none;
+}
+
 .site-main .project-area .button-group button {
     background: transparent;
     border: none;
