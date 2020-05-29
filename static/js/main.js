@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    // Change which item in the project tags menu is active and filter projects
+
     let $buttons = $('.project-area .button-group button');
 
     $buttons.click(function(e){
@@ -17,7 +19,6 @@ $(document).ready(function(){
     });
 
     $('.project-area .button-group #btn1').trigger('click');
-
 
     // Sticky Navigation Menu
 
@@ -39,5 +40,13 @@ $(document).ready(function(){
     }
 
     navbarFixed();
+
+    // Change which item in the navbar is active
+
+    let $navitems = $('.header-area .main-menu .navbar .navbar-nav li');
+
+    $navitems.click(function(e){
+        $(this).addClass('active').siblings().removeClass('active');
+    });
 
 });
