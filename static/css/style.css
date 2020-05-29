@@ -176,7 +176,7 @@ footer.footer-area .social-menu .social {
 
 footer.footer-area .social-menu .social a > i {
     font-size: 30px;
-    padding: 0.5rem;
+    padding: 0rem 1rem 1rem;
     color: var(--text-color);
 }
 
