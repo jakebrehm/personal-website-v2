@@ -76,9 +76,9 @@
 
 }
 
-/* Viewports of 990px or less */
+/* Viewports of 991px or less */
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991px) {
     
     .container {
         max-width: 90%;
@@ -95,6 +95,14 @@
         background: whitesmoke;
         box-shadow: var(--box-shadow);
         transition: background 1s ease;
+    }
+
+    .header-area .main-menu .nav-item .nav-link {
+        padding-left: 0;
+    }
+
+    .nav-button {
+        margin-left: 0;
     }
 
 }
