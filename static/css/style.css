@@ -10,6 +10,7 @@
 }
 
 /* Navigation Bar */
+
 .header-area .main-menu .navbar-brand {
     padding: 0 2rem 0 0;
     width: 30%;
@@ -59,7 +60,7 @@
 }
 
 .site-main .site-banner .site-title {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .site-main .site-banner .site-title .site-title-contents {
@@ -72,22 +73,22 @@
 
 .site-main .about-area {
     padding: 8rem 5rem;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .site-main .about-area .about-title h2 > span {
     display: block;
     font: normal bold 3rem/60px "Montserrat";
+    padding-bottom: 1rem;
 }
 
 .site-main .about-area .about-title .paragraph > p {
-    padding: .4rem 0;
     font-size: 1.5rem;
 }
 
 p.para {
     color: var(--text-color);
-    font: normal 500 16px/25px "Montserrat";
+    font: normal 500 16px/30px "Montserrat";
 }
 
 /* Project Section */
@@ -98,7 +99,8 @@ p.para {
 }
 
 .site-main .project-area .project-title {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
+    padding-top: 10rem;
 }
 
 .site-main .project-area .button-group {
