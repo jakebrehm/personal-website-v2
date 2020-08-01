@@ -1,5 +1,8 @@
-.vscode
 __pycache__/
 ide/
+assets/
+img/
+env/
 venv/
+.vscode
 *.ini
