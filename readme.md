@@ -5,7 +5,7 @@
 <h1 align="center">Personal Portfolio Website - v2</h1>
 
 <p align="center">
-    The second iteration of <a href="https://www.jakebrehm.com/" target="_blank">jakebrehm.com</a>, built with <a href="https://github.com/pallets/flask" target="_blank">Flask</a> and hosted on <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a>.
+    The second iteration of <a href="https://www.jakebrehm.com/" target="_blank">jakebrehm.com</a>, built with <a href="https://github.com/pallets/flask" target="_blank">Flask</a> and hosted on <a href="https://www.heroku.com/" target="_blank">Heroku</a>.
 </p>
 
 <p align="center">
