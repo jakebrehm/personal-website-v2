@@ -3,7 +3,7 @@ import json
 import os
 import pathlib
 
-import github
+import github # pip3 install PyGithub
 
 projects = {
 
@@ -86,6 +86,15 @@ projects = {
         'image': '',
         'links': {
             'github': 'multitooner',
+        },
+    },
+
+    'ManyMiles': {
+        'tags': ['Featured', 'Python', 'HTML/CSS'],
+        'image': '',
+        'links': {
+            'github': 'manymiles',
+            'preview': 'https://www.manymiles.app/',
         },
     },
 
