@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    // Initialize tooltips on the page
+
+    $('#resume-date').tooltip()
+
     // Change which item in the project tags menu is active and filter projects
 
     let $buttons = $('.project-area .button-group button');

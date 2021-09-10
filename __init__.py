@@ -5,11 +5,11 @@ from flask import Flask, render_template, redirect, request
 
 app = Flask(__name__)
 
-@app.before_request
-def force_https():
-    if request.url.startswith('http://'):
-        url = request.url.replace('http://', 'https://', 1)
-        return redirect(url, code=301)
+# @app.before_request
+# def force_https():
+#     if request.url.startswith('http://'):
+#         url = request.url.replace('http://', 'https://', 1)
+#         return redirect(url, code=301)
 
 @app.route('/')
 def homepage():
@@ -30,4 +30,4 @@ def epicycler():
     return render_template('epicycler.html')
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
