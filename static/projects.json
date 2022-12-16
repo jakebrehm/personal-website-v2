@@ -8,7 +8,7 @@
         "links": {
             "github": "ezpz-plotting"
         },
-        "description": "\ud83d\udcc8 Easily visualize and manipulate plots from multiple data files."
+        "description": null
     },
     "EZPZ Reducer": {
         "tags": [
@@ -18,7 +18,7 @@
         "links": {
             "github": "ezpz-reducer"
         },
-        "description": "\ud83e\ude93 Concatenates and then decimates one or more csv files."
+        "description": null
     },
     "GeoPhotos": {
         "tags": [
@@ -28,7 +28,7 @@
         "links": {
             "github": "geophotos"
         },
-        "description": "\ud83d\uddfa \ud83d\udccd A Python package to pull, analyze, and plot coordinates from various sources."
+        "description": null
     },
     "Reddit Downloader": {
         "tags": [
@@ -39,7 +39,7 @@
         "links": {
             "github": "reddit-downloader"
         },
-        "description": "\u2b07\ufe0f Downloads all media content posted by specified Reddit users."
+        "description": null
     },
     "Drawing Epicycler": {
         "tags": [
@@ -51,7 +51,7 @@
             "github": "drawing-epicycler",
             "preview": "/epicycler/"
         },
-        "description": "\u270f\ufe0f Visualizes the discrete fourier transform of a user-drawn path using epicycles."
+        "description": null
     },
     "Portfolio Website": {
         "tags": [
@@ -63,18 +63,17 @@
             "github": "personal-website-v2",
             "preview": "/"
         },
-        "description": "\ud83d\uddc2 My own personal website with a Flask (Python) backend."
+        "description": null
     },
     "Cage Discord Bot": {
         "tags": [
-            "Featured",
             "Python"
         ],
         "image": "",
         "links": {
             "github": "cage-discord-bot"
         },
-        "description": "\ud83e\udd16 A Nicolas Cage bot for Discord."
+        "description": null
     },
     "Bother Me Not": {
         "tags": [
@@ -84,7 +83,7 @@
         "links": {
             "github": "bother-me-not"
         },
-        "description": "\ud83d\udd15 A small Arduino project that lets people know if it's okay to bother me."
+        "description": null
     },
     "Tooner": {
         "tags": [
@@ -94,7 +93,7 @@
         "links": {
             "github": "tooner"
         },
-        "description": "\ud83d\udc36 An easier way to launch sessions and track invasions for Toontown Rewritten."
+        "description": null
     },
     "MultiTooner": {
         "tags": [
@@ -105,7 +104,7 @@
         "links": {
             "github": "multitooner"
         },
-        "description": "\ud83d\udd79\ufe0f A Toontown Rewritten companion for MacOS that lives in the menu bar."
+        "description": null
     },
     "ManyMiles": {
         "tags": [
@@ -118,6 +117,17 @@
             "github": "manymiles",
             "preview": "https://www.manymiles.app/"
         },
-        "description": "\ud83d\ude98 A Flask web app to easily keep track of your mileage."
+        "description": null
+    },
+    "Demesstify": {
+        "tags": [
+            "Featured",
+            "Python"
+        ],
+        "image": "",
+        "links": {
+            "github": "demesstify"
+        },
+        "description": null
     }
 }

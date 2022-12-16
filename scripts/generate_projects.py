@@ -58,7 +58,7 @@ projects = {
     },
 
     'Cage Discord Bot': {
-        'tags': ['Featured', 'Python'],
+        'tags': ['Python'],
         'image': '',
         'links': {
             'github': 'cage-discord-bot',
@@ -95,6 +95,14 @@ projects = {
         'links': {
             'github': 'manymiles',
             'preview': 'https://www.manymiles.app/',
+        },
+    },
+
+    'Demesstify': {
+        'tags': ['Featured', 'Python'],
+        'image': '',
+        'links': {
+            'github': 'demesstify',
         },
     },
 
