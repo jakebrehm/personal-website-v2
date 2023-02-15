@@ -104,13 +104,13 @@
                         <button type="button" data-filter="*">All</button>
                         <button type="button" data-filter=".featured" id="btn1" class="active">Featured</button>
                         {% for tag in tags %}
-                            <button type="button" data-filter=".{{tag.lower().replace('/', '-')}}">{{tag}}</button>
+                            <button type="button" data-filter=".{{tag.lower().replace('/', '-').replace(' ', '-')}}">{{tag}}</button>
                         {% endfor %}
                     </div>
 
                     <div class="row grid">
                         {% for project, info in projects.items() %}
-                            <div class="col-lg-4 col-md-6 col-sm-12 element-item{% for tag in info['tags'] %} {{tag.lower().replace('/', '-')}}{% endfor %}">
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item{% for tag in info['tags'] %} {{tag.lower().replace('/', '-').replace(' ', '-')}}{% endfor %}">
                                 <div class="project-item">
                                     {% if show_images and info['image'] %}
                                         <div class="img">

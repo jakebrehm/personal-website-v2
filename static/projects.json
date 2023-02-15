@@ -1,8 +1,74 @@
 {
-    "EZPZ Plotting": {
+    "Snake AI": {
         "tags": [
             "Featured",
-            "Python"
+            "Machine Learning"
+        ],
+        "image": "",
+        "links": {
+            "github": "snake-ai"
+        },
+        "description": "\ud83d\udc0d A neural network AI learns how to play a custom version of the classic snake game."
+    },
+    "Predicting Disaster Authenticity": {
+        "tags": [
+            "Featured",
+            "Machine Learning"
+        ],
+        "image": "",
+        "links": {
+            "github": "predicting-disaster-authenticity"
+        },
+        "description": "\ud83c\udf2a\ufe0f Predicts whether or not a tweet was announcing a real disaster using NLP techniques."
+    },
+    "European Tweet Classification": {
+        "tags": [
+            "Featured",
+            "Machine Learning"
+        ],
+        "image": "",
+        "links": {
+            "github": "european-tweet-classification"
+        },
+        "description": "\ud83d\udc26 Determined a Twitter user's political views using a NLP pipeline."
+    },
+    "Demesstify": {
+        "tags": [
+            "Featured",
+            "Databases"
+        ],
+        "image": "",
+        "links": {
+            "github": "demesstify"
+        },
+        "description": "\ud83d\udcf1Demystifies your messages and allows for easy analysis and visualization of conversations."
+    },
+    "ManyMiles": {
+        "tags": [
+            "Featured",
+            "Web Dev",
+            "Databases"
+        ],
+        "image": "",
+        "links": {
+            "github": "manymiles",
+            "preview": "https://www.manymiles.app/"
+        },
+        "description": "\ud83d\ude98 A Flask web app to easily keep track of your mileage."
+    },
+    "GeoPhotos": {
+        "tags": [
+            "Featured"
+        ],
+        "image": "",
+        "links": {
+            "github": "geophotos"
+        },
+        "description": "\ud83d\uddfa \ud83d\udccd A Python package to pull, analyze, and plot coordinates from various sources."
+    },
+    "EZPZ Plotting": {
+        "tags": [
+            "Software"
         ],
         "image": "img/ezpz-plotting.png",
         "links": {
@@ -12,7 +78,7 @@
     },
     "EZPZ Reducer": {
         "tags": [
-            "Python"
+            "Software"
         ],
         "image": "",
         "links": {
@@ -20,20 +86,9 @@
         },
         "description": "\ud83e\ude93 Concatenates and then decimates one or more csv files."
     },
-    "GeoPhotos": {
-        "tags": [
-            "Python"
-        ],
-        "image": "",
-        "links": {
-            "github": "geophotos"
-        },
-        "description": "\ud83d\uddfa \ud83d\udccd A Python package to pull, analyze, and plot coordinates from various sources."
-    },
     "Reddit Downloader": {
         "tags": [
-            "Featured",
-            "Python"
+            "Software"
         ],
         "image": "img/reddit-downloader.png",
         "links": {
@@ -43,8 +98,7 @@
     },
     "Drawing Epicycler": {
         "tags": [
-            "Featured",
-            "JavaScript"
+            "Web Dev"
         ],
         "image": "img/drawing-epicycler.png",
         "links": {
@@ -55,8 +109,7 @@
     },
     "Portfolio Website": {
         "tags": [
-            "Python",
-            "HTML/CSS"
+            "Web Dev"
         ],
         "image": "",
         "links": {
@@ -67,7 +120,7 @@
     },
     "Cage Discord Bot": {
         "tags": [
-            "Python"
+            "Databases"
         ],
         "image": "",
         "links": {
@@ -76,9 +129,7 @@
         "description": "\ud83e\udd16 A Nicolas Cage bot for Discord."
     },
     "Bother Me Not": {
-        "tags": [
-            "Arduino"
-        ],
+        "tags": [],
         "image": "",
         "links": {
             "github": "bother-me-not"
@@ -86,9 +137,7 @@
         "description": "\ud83d\udd15 A small Arduino project that lets people know if it's okay to bother me."
     },
     "Tooner": {
-        "tags": [
-            "Python"
-        ],
+        "tags": [],
         "image": "",
         "links": {
             "github": "tooner"
@@ -97,37 +146,12 @@
     },
     "MultiTooner": {
         "tags": [
-            "Featured",
-            "Python"
+            "Software"
         ],
         "image": "",
         "links": {
             "github": "multitooner"
         },
         "description": "\ud83d\udd79\ufe0f A Toontown Rewritten companion for MacOS that lives in the menu bar."
-    },
-    "ManyMiles": {
-        "tags": [
-            "Featured",
-            "Python",
-            "HTML/CSS"
-        ],
-        "image": "",
-        "links": {
-            "github": "manymiles",
-            "preview": "https://www.manymiles.app/"
-        },
-        "description": "\ud83d\ude98 A Flask web app to easily keep track of your mileage."
-    },
-    "Demesstify": {
-        "tags": [
-            "Featured",
-            "Python"
-        ],
-        "image": "",
-        "links": {
-            "github": "demesstify"
-        },
-        "description": "\ud83d\udcf1Demystifies your messages and allows for easy analysis and visualization of conversations."
     }
 }

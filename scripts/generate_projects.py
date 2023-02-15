@@ -7,8 +7,59 @@ import github # pip3 install PyGithub
 
 projects = {
 
+    # Order of tags on website is controlled by order of tags here
+
+    'Snake AI': {
+        'tags': ['Featured', 'Machine Learning'],
+        'image': '',
+        'links': {
+            'github': 'snake-ai',
+        },
+    },
+
+    'Predicting Disaster Authenticity': {
+        'tags': ['Featured', 'Machine Learning'],
+        'image': '',
+        'links': {
+            'github': 'predicting-disaster-authenticity',
+        },
+    },
+
+    'European Tweet Classification': {
+        'tags': ['Featured', 'Machine Learning'],
+        'image': '',
+        'links': {
+            'github': 'european-tweet-classification',
+        },
+    },
+
+    'Demesstify': {
+        'tags': ['Featured', 'Databases'],
+        'image': '',
+        'links': {
+            'github': 'demesstify',
+        },
+    },
+
+    'ManyMiles': {
+        'tags': ['Featured', 'Web Dev', 'Databases'],
+        'image': '',
+        'links': {
+            'github': 'manymiles',
+            'preview': 'https://www.manymiles.app/',
+        },
+    },
+
+    'GeoPhotos': {
+        'tags': ['Featured'],
+        'image': '',
+        'links': {
+            'github': 'geophotos',
+        },
+    },
+
     'EZPZ Plotting': {
-        'tags': ['Featured', 'Python'],
+        'tags': ['Software'],
         'image': 'img/ezpz-plotting.png',
         'links': {
             'github': 'ezpz-plotting',
@@ -16,23 +67,15 @@ projects = {
     },
 
     'EZPZ Reducer': {
-        'tags': ['Python'],
+        'tags': ['Software'],
         'image': '',
         'links': {
             'github': 'ezpz-reducer',
         },
     },
     
-    'GeoPhotos': {
-        'tags': ['Python'],
-        'image': '',
-        'links': {
-            'github': 'geophotos',
-        },
-    },
-    
     'Reddit Downloader': {
-        'tags': ['Featured', 'Python'],
+        'tags': ['Software'],
         'image': 'img/reddit-downloader.png',
         'links': {
             'github': 'reddit-downloader',
@@ -40,7 +83,7 @@ projects = {
     },
     
     'Drawing Epicycler': {
-        'tags': ['Featured', 'JavaScript'],
+        'tags': ['Web Dev'],
         'image': 'img/drawing-epicycler.png',
         'links': {
             'github': 'drawing-epicycler',
@@ -49,7 +92,7 @@ projects = {
     },
 
     'Portfolio Website': {
-        'tags': ['Python', 'HTML/CSS'],
+        'tags': ['Web Dev'],
         'image': '',
         'links': {
             'github': 'personal-website-v2',
@@ -58,7 +101,7 @@ projects = {
     },
 
     'Cage Discord Bot': {
-        'tags': ['Python'],
+        'tags': ['Databases'],
         'image': '',
         'links': {
             'github': 'cage-discord-bot',
@@ -66,7 +109,7 @@ projects = {
     },
 
     'Bother Me Not': {
-        'tags': ['Arduino'],
+        'tags': [],
         'image': '',
         'links': {
             'github': 'bother-me-not',
@@ -74,7 +117,7 @@ projects = {
     },
 
     'Tooner': {
-        'tags': ['Python'],
+        'tags': [],
         'image': '',
         'links': {
             'github': 'tooner',
@@ -82,27 +125,10 @@ projects = {
     },
 
     'MultiTooner': {
-        'tags': ['Featured', 'Python'],
+        'tags': ['Software'],
         'image': '',
         'links': {
             'github': 'multitooner',
-        },
-    },
-
-    'ManyMiles': {
-        'tags': ['Featured', 'Python', 'HTML/CSS'],
-        'image': '',
-        'links': {
-            'github': 'manymiles',
-            'preview': 'https://www.manymiles.app/',
-        },
-    },
-
-    'Demesstify': {
-        'tags': ['Featured', 'Python'],
-        'image': '',
-        'links': {
-            'github': 'demesstify',
         },
     },
 
