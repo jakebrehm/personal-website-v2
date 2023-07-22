@@ -60,7 +60,7 @@ projects = {
 
     'EZPZ Plotting': {
         'tags': ['Software'],
-        'image': 'img/ezpz-plotting.png',
+        'image': '',
         'links': {
             'github': 'ezpz-plotting',
         },
@@ -76,15 +76,23 @@ projects = {
     
     'Reddit Downloader': {
         'tags': ['Software'],
-        'image': 'img/reddit-downloader.png',
+        'image': '',
         'links': {
             'github': 'reddit-downloader',
         },
     },
     
+    'Specialty Referral Network': {
+        'tags': ['Visualization', 'Web Dev'],
+        'image': '',
+        'links': {
+            'github': 'referral-network',
+        },
+    },
+    
     'Drawing Epicycler': {
         'tags': ['Web Dev'],
-        'image': 'img/drawing-epicycler.png',
+        'image': '',
         'links': {
             'github': 'drawing-epicycler',
             'preview': '/epicycler/',

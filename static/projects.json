@@ -70,7 +70,7 @@
         "tags": [
             "Software"
         ],
-        "image": "img/ezpz-plotting.png",
+        "image": "",
         "links": {
             "github": "ezpz-plotting"
         },
@@ -90,17 +90,28 @@
         "tags": [
             "Software"
         ],
-        "image": "img/reddit-downloader.png",
+        "image": "",
         "links": {
             "github": "reddit-downloader"
         },
         "description": "\u2b07\ufe0f Downloads all media content posted by specified Reddit users."
     },
+    "Specialty Referral Network": {
+        "tags": [
+            "Visualization",
+            "Web Dev"
+        ],
+        "image": "",
+        "links": {
+            "github": "referral-network"
+        },
+        "description": "\ud83d\udd0d A Flask application that helps identify the bottlenecks in a specialty referral network."
+    },
     "Drawing Epicycler": {
         "tags": [
             "Web Dev"
         ],
-        "image": "img/drawing-epicycler.png",
+        "image": "",
         "links": {
             "github": "drawing-epicycler",
             "preview": "/epicycler/"
